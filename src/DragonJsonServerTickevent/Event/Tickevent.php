@@ -17,5 +17,5 @@ class Tickevent extends \Zend\EventManager\Event
 	/**
 	 * @var string
 	 */
-	protected $name = 'tickevent';
+	protected $name = 'Tickevent';
 }
