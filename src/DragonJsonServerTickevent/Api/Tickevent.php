@@ -21,6 +21,6 @@ class Tickevent
 	 */
 	public function tickevent()
 	{
-		$this->getServiceManager()->get('Tickevent')->tickevent();
+		$this->getServiceManager()->get('\DragonJsonServerTickevent\Service\Tickevent')->tickevent();
 	}
 }

@@ -18,7 +18,7 @@ return [
     ],
 	'service_manager' => [
 		'invokables' => [
-            'Tickevent' => '\DragonJsonServerTickevent\Service\Tickevent',
+            '\DragonJsonServerTickevent\Service\Tickevent' => '\DragonJsonServerTickevent\Service\Tickevent',
 		],
 	],
 ];
