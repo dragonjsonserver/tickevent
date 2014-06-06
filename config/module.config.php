@@ -13,12 +13,12 @@
 return [
 	'dragonjsonserver' => [
 	    'apiclasses' => [
-	        '\DragonJsonServerTickevent\Api\Tickevent' => 'Tickevent',
+	        '\DragonJsonServerTickevent\Api\TickeventAdmin' => 'TickeventAdmin',
 	    ],
     ],
 	'service_manager' => [
 		'invokables' => [
-            '\DragonJsonServerTickevent\Service\Tickevent' => '\DragonJsonServerTickevent\Service\Tickevent',
+            '\DragonJsonServerTickevent\Service\TickeventAdmin' => '\DragonJsonServerTickevent\Service\TickeventAdmin',
 		],
 	],
 ];

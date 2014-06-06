@@ -9,6 +9,6 @@
 
 require 'bootstrap.php';
 $serviceManager->get('\DragonJsonServer\Service\Server')->run([
-	'method' => 'Tickevent.tickevent',
+	'method' => 'TickeventAdmin.tickevent',
 	'params' => ['securitytoken' => isset($_GET['securitytoken']) ? $_GET['securitytoken'] : ''],
 ]);

@@ -12,7 +12,7 @@ namespace DragonJsonServerTickevent\Service;
 /**
  * Serviceklasse zur Verwaltung von Tickevents
  */
-class Tickevent
+class TickeventAdmin
 {
 	use \DragonJsonServer\ServiceManagerTrait;
 	use \DragonJsonServer\EventManagerTrait;

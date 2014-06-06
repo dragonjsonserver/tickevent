@@ -12,7 +12,7 @@ namespace DragonJsonServerTickevent\Api;
 /**
  * API Klasse zur Verwaltung von Tickevents
  */
-class Tickevent
+class TickeventAdmin
 {
 	use \DragonJsonServer\ServiceManagerTrait;
 
@@ -21,6 +21,6 @@ class Tickevent
 	 */
 	public function tickevent()
 	{
-		$this->getServiceManager()->get('\DragonJsonServerTickevent\Service\Tickevent')->tickevent();
+		$this->getServiceManager()->get('\DragonJsonServerTickevent\Service\TickeventAdmin')->tickevent();
 	}
 }
